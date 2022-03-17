@@ -28,14 +28,14 @@
       "tab": {
         "chat": "Bate-Papo",
         "players": "Jogadores",
-        "parties": "Parties"
+        "parties": "Grupos"
       },
       "chat": {
         "tab": {
           "all": "Todas",
           "map": "Mapa",
           "global": "Global",
-          "party": "Party"
+          "party": "Grupo"
         },
         "nickname": {
           "header": "Defina seu nickname antes de acessar o bate papo.",
@@ -48,7 +48,7 @@
       "players": {
         "tab": {
           "map": "Mapa",
-          "party": "Party"
+          "party": "Grupo"
         }
       }
     },
@@ -110,29 +110,29 @@
       },
       "createParty": {
         "title": {
-          "create": "Create Party",
-          "update": "Edit Party"
+          "create": "Criar Grupo",
+          "update": "Editar Grupo"
         },
         "fields": {
-          "partyName": "Party Name",
-          "description": "Description",
-          "public": "Public",
-          "password": "Password",
-          "theme": "Theme"
+          "partyName": "Nome do Grupo",
+          "description": "Descrição",
+          "public": "Publico",
+          "password": "Senha",
+          "theme": "Tema"
         },
-        "showPassword": "Show Password",
-        "hidePassword": "Hide Password",
-        "submit": "Submit"
+        "showPassword": "Amostrar Senha",
+        "hidePassword": "Esconder Senha",
+        "submit": "Enviar"
       },
       "joinPrivateParty": {
-        "title": "Join Private Party",
+        "title": "Entrar em Grupo Privado",
         "fields": {
-          "password": "Password"
+          "password": "Senha"
         },
-        "showPassword": "Show Password",
-        "hidePassword": "Hide Password",
-        "incorrectPassword": "Incorrect Password: Please try again.",
-        "submit": "Submit"
+        "showPassword": "Amostrar Senha",
+        "hidePassword": "Esconder Senha",
+        "incorrectPassword": "Senha Incorreta: Por favor tente denovo.",
+        "submit": "Enviar"
       }
     },
     "tooltips": {
@@ -151,8 +151,8 @@
         "clearChat": "Limpar o Chat"
       },
       "parties": {
-        "createParty": "Create Party",
-        "disbandParty": "Disband Party"
+        "createParty": "Criar Grupo",
+        "disbandParty": "Dissolver Grupo"
       },
       "nexus": "Voltar para o Nexo"
     }
@@ -175,7 +175,7 @@
     "connStatus": {
       "0": "Desconectado",
       "1": "Conectado",
-      "2": "Connecting...",
+      "2": "Conectando...",
       "3": "Jogador Único"
     },
     "location": {
@@ -197,8 +197,8 @@
     "playerList": {
       "unnamed": "Jogador sem nome",
       "actions": {
-        "partyKick": "Kick From Party",
-        "transferPartyOwner": "Promote to Party Leader"
+        "partyKick": "Expulsar do Grupo",
+        "transferPartyOwner": "Promover para Líder do Grupo"
       }
     },
     "roles": {
@@ -206,18 +206,18 @@
       "dev": "Desenvolvedor"
     },
     "parties": {
-      "emptyMessage": "There are currently no active parties.",
-      "yourParty": "Your Party",
-      "defaultPartyName": "{OWNER}'s Party",
-      "partyOwner": "Party Leader",
+      "emptyMessage": "Atualmente não tem nunhum grupo ativo.",
+      "yourParty": "Seu Grupo",
+      "defaultPartyName": "Grupo de {OWNER}",
+      "partyOwner": "Líder do Grupo",
       "offlineMemberSuffix": " (Offline)",
       "onlineCount": "Online - {COUNT}",
       "offlineCount": "Offline - {COUNT}",
       "actions": {
-        "viewPartyDetails": "View Party Details",
-        "joinParty": "Join Party",
-        "joinPrivateParty": "Join Private Party",
-        "leaveParty": "Leave Party"
+        "viewPartyDetails": "Ver detalhes do Grupo",
+        "joinParty": "Entrar no Grupo",
+        "joinPrivateParty": "Entrar no Grupo Privado",
+        "leaveParty": "Sair do Grupo"
       }
     },
     "chatTips": {
@@ -237,16 +237,16 @@
     },
     "toast": {
       "parties": {
-        "create": "{PARTY} has been created.",
-        "update": "{PARTY} has been updated.",
-        "join": "You have joined {PARTY}.",
-        "leave": "You have left {PARTY}.",
-        "remove": "You have been removed from {PARTY}.",
-        "disband": "{PARTY} has been disbanded.",
-        "kickPlayer": "{PLAYER} has been kicked from the party.",
-        "transferPartyOwner": "Party ownership has been transferred to {PLAYER}.",
-        "playerJoin": "{PLAYER} has joined the party.",
-        "playerLeave": "{PLAYER} has left the party."
+        "create": "{PARTY} foi criado.",
+        "update": "{PARTY} foi atualizado.",
+        "join": "Você entrou em {PARTY}.",
+        "leave": "Você saiu de {PARTY}.",
+        "remove": "Você foi removido(a) de {PARTY}.",
+        "disband": "{PARTY} foi dissolvido.",
+        "kickPlayer": "{PLAYER} foi expulso(a) do grupo.",
+        "transferPartyOwner": "Propriedade do grupo foi transferida para {PLAYER}.",
+        "playerJoin": "{PLAYER} entrou no grupo.",
+        "playerLeave": "{PLAYER} saiu do grupo."
       }
     },
     "2kki": {
